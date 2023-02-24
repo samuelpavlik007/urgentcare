@@ -1,5 +1,7 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    background: #252525;
+    color: #fff;
 }
 
 main {
@@ -13,13 +15,14 @@ main {
 h1 {
     margin: 0;
     font-size: 22vw;
+    display: flex;
+    gap: 4w;
 }
 
 .heart {
     fill: red;
     position: relative;
-    top: 5px;
-    width: 50px;
+    width: 16vw;
     animation: pulse 1s ease infinite;
   }
   
